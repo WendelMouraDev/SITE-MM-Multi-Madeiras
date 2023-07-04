@@ -1,0 +1,222 @@
+/*--------FORMATAÇÃO GERAL--------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1000;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+}
+
+header .container,
+section .container{
+    display: flex;
+}
+
+section .container{
+    align-items:center;
+    margin: 0 50px;
+}
+
+section .container{
+    align-items: center;
+    margin: 0px 50px;
+}
+
+.container p{
+    margin-bottom: 8px;
+    margin-right: 0px;
+    width: 30%;
+}
+
+.container p{
+    font-family: 'Mukta', sans-serif;
+}
+
+h1, h2, h3, h4, nav{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size:xx-large;
+    font-weight: 500;
+}
+
+h2, h3{
+    color: #6e2a02da;
+}
+
+h2{
+    font-size: 40px;
+    margin: 8px 0px;
+}
+
+h3{
+    font-size: 32px;
+    margin: 8px 0px;
+}
+
+h4{
+    font-size: 23px;
+    color: #b84909e3;
+}
+
+body{
+    background-color: #6e2a0227 ;
+}
+
+/*-----------HEADER--------------*/
+
+header {
+    padding: 0px 10px;
+    background-color: #6e2a02da;
+    color: #ecf0f1;
+    justify-content: space-around;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    color: #ecf0f1;
+}
+
+header nav li a{
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+header nav li a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 30px;
+}
+
+header li a{
+    font-size: 18px;
+}
+
+header h1{
+    font-size: 50px;
+}
+
+header nav li a{
+    font-size: 25px;
+}
+/*-------------------SOBRE NÓS-------------------------*/
+
+#about-us .container{display: block;}
+
+#about-us{
+    padding: 0px 150px;
+    align-items: center;
+}
+
+#about-us .text{display: block;}
+
+#about-us img{
+    position: relative;
+    bottom: 430px;
+    left: 350px;
+    height: 310px;
+    border-radius: 4px;
+}
+
+#about-us p{
+    font-size: 20px;
+    width: 300px;
+}
+
+#about-us h2{
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+/*--------------------PRODUTOS-------------------------*/
+
+#catalogo p, #catalogo img{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+#catalogo h2, #catalogo h3{
+    text-align: center;
+}
+
+#catalogo h2{
+    margin-top: 10px;
+    padding: 10px 0px;
+}
+
+.produtos{
+    display: flex;
+    align-items: center;
+}
+
+.produtos img{
+    height: 180px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.produtos li p{
+    width: 300px;
+    justify-content: space-between;
+    margin-right: 15px;
+    display: inline;
+    margin-left: 0px;
+    align-items:center;
+}
+
+li{
+    list-style: none;
+}
+
+
+
+.produtos a{
+    text-align: center;
+    text-decoration: none;
+}
+
+.produtos li a:hover{
+    text-decoration: underline;
+}
+/*-------------FORMULÁRIO------------*/
+
+form input, form textarea
+, form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/*.form h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+*/
+
+form textarea{
+    resize: none;
+    height: 151px;
+}
+
+/*-------------CONTATO------------*/
+
+#contact .social-links img{
+    height: 40px;
+    width: 40px;
+}
+
+#contact .container{
+    display: flex;
+    align-items: inline;
+}
