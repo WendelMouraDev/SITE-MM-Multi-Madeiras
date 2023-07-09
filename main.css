@@ -210,13 +210,11 @@ form textarea{
 }
 
 /*-------------CONTATO------------*/
+#contact{
+    display: inline;
+}
 
 #contact .social-links img{
     height: 40px;
     width: 40px;
-}
-
-#contact .container{
-    display: flex;
-    align-items: inline;
 }
